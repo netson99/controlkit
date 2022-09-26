@@ -8,10 +8,10 @@ set(KF5_MIN_VERSION "5.68")
 
 find_package(ECM ${KF5_MIN_VERSION} REQUIRED NO_MODULE)
 set(CMAKE_MODULE_PATH ${ECM_MODULE_PATH})
-find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Plasma )
+#find_package(KF5 ${KF5_MIN_VERSION} REQUIRED COMPONENTS Plasma )
 
 #include(FeatureSummary)
 #include(KDECMakeSettings)
 
-plasma_install_package(jingosLight org.jingos.light.desktop jingosTheme jingosLight)
-plasma_install_package(jingosDark  org.jingos.dark.desktop  jingosTheme jingosDark)
+#plasma_install_package(jingosLight org.jingos.light.desktop jingosTheme jingosLight)
+#plasma_install_package(jingosDark  org.jingos.dark.desktop  jingosTheme jingosDark)
